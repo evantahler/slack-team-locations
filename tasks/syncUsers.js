@@ -5,7 +5,7 @@ module.exports = class SyncUsers extends Task {
     super()
     this.name = 'SyncUsers'
     this.description = 'update users from slack'
-    this.frequency = (1000 * 60 * 60) // once and hour
+    this.frequency = (1000 * 60 * 5)
     this.queue = 'default'
     this.middleware = []
   }

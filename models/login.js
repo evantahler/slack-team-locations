@@ -14,11 +14,11 @@ const User = function (sequelize, DataTypes) {
     },
     lat: {
       type: DataTypes.FLOAT,
-      allowNull: false
+      allowNull: true
     },
     lng: {
       type: DataTypes.FLOAT,
-      allowNull: false
+      allowNull: true
     }
   }, {
     tableName: 'logins'

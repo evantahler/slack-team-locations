@@ -23,11 +23,11 @@ module.exports = {
       },
       lat: {
         type: DataTypes.FLOAT,
-        allowNull: false
+        allowNull: true
       },
       lng: {
         type: DataTypes.FLOAT,
-        allowNull: false
+        allowNull: true
       }
     }, {
       charset: 'utf8mb4'
