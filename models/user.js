@@ -20,18 +20,6 @@ const User = function (sequelize, DataTypes) {
     tableName: 'users'
   })
 
-  Model.prototype.apiData = async function () {
-    return {
-      id: this.id,
-      createdAt: this.createdAt,
-      updatedAt: this.updatedAt,
-      name: this.name,
-      displayName: this.displayName,
-      email: this.email,
-      image: this.image
-    }
-  }
-
   return Model
 }
 

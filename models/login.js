@@ -28,19 +28,6 @@ const Login = function (sequelize, DataTypes) {
     tableName: 'logins'
   })
 
-  Model.prototype.apiData = async function () {
-    return {
-      id: this.id,
-      userId: this.userId,
-      createdAt: this.createdAt,
-      count: this.count,
-      ip: this.ip,
-      lat: this.lat,
-      lng: this.lng,
-      timeZone: this.timeZone
-    }
-  }
-
   return Model
 }
 
