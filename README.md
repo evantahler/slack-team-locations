@@ -2,6 +2,8 @@
 
 I parse the slack access logs to make a map of your team member's locations so you can show them on a map!
 
+![screenshot](https://raw.githubusercontent.com/evantahler/slack-team-locations/master/screenshot.png)
+
 ## Setups
 ```bash
 yarn install
