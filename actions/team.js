@@ -15,7 +15,6 @@ module.exports = class Team extends Action {
 
     for (let i in users) {
       let user = users[i]
-      console.log(user)
       response.users.push({
         id: user.id,
         name: user.displayName || user.name,
