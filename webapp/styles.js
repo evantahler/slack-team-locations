@@ -20,7 +20,18 @@ const Styles = {
   footer: {
     width: '100%',
     height: `${footerHeight}px`,
-    backgroundColor: 'gray'
+    backgroundColor: 'gray',
+    overflow: 'auto'
+  },
+
+  // user avatar
+  user: {
+    margin: 5,
+    float: 'left'
+  },
+  userImage: {
+    width: 50,
+    height: 50
   }
 }
 
