@@ -11,6 +11,9 @@ locales/test-env-*
 public/javascript/ActionheroWebsocketClient.js
 public/javascript/ActionheroWebsocketClient.min.js
 
+# React Buld
+public/js
+
 # Node / NPM
 npm-debug.log
 
