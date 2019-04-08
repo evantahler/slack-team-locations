@@ -10,7 +10,7 @@ module.exports = {
       updatedAt: DataTypes.DATE,
 
       userId: {
-        type: DataTypes.INTEGER,
+        type: DataTypes.STRING(191),
         allowNull: false
       },
       count: {
@@ -27,6 +27,10 @@ module.exports = {
       },
       lng: {
         type: DataTypes.FLOAT,
+        allowNull: true
+      },
+      timeZone: {
+        type: DataTypes.STRING(191),
         allowNull: true
       }
     }, {

@@ -11,5 +11,8 @@ heroku local
 ```
 
 ## Configuration
-Your slack team needs to be paid so that you can acess the `team.accessLogs` methods (https://api.slack.com/methods/team.accessLogs).  This is what we use to get folk's locations
-* Make a new integration and get your API key here my.slack.com/apps/manage/custom-integrations
+* Your slack team needs to be paid so that you can acess the `team.accessLogs` methods (https://api.slack.com/methods/team.accessLogs).  This is what we use to get folk's locations
+* Make a new integration and get your API key here https://api.slack.com/methods/team.accessLogs/test This is the test method for the team API, so you can be sure that your API key works.
+
+## Notes
+* This project uses (and will download) the free maxmind geoip "geolite-2" database.

@@ -1,7 +1,7 @@
-const User = function (sequelize, DataTypes) {
+const Login = function (sequelize, DataTypes) {
   const Model = sequelize.define('Login', {
     userId: {
-      type: DataTypes.INTEGER,
+      type: DataTypes.STRING(191),
       allowNull: false
     },
     count: {
@@ -19,6 +19,10 @@ const User = function (sequelize, DataTypes) {
     lng: {
       type: DataTypes.FLOAT,
       allowNull: true
+    },
+    timeZone: {
+      type: DataTypes.STRING(191),
+      allowNull: true
     }
   }, {
     tableName: 'logins'
@@ -32,11 +36,12 @@ const User = function (sequelize, DataTypes) {
       count: this.count,
       ip: this.ip,
       lat: this.lat,
-      lng: this.lng
+      lng: this.lng,
+      timeZone: this.timeZone
     }
   }
 
   return Model
 }
 
-module.exports = User
+module.exports = Login

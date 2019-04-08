@@ -752,6 +752,11 @@ bcrypt-pbkdf@^1.0.0:
   dependencies:
     tweetnacl "^0.14.3"
 
+big-integer@^1.6.31:
+  version "1.6.43"
+  resolved "https://registry.yarnpkg.com/big-integer/-/big-integer-1.6.43.tgz#8ac15bf13e93e509500859061233e19d8d0d99d1"
+  integrity sha512-9dULc9jsKmXl0Aeunug8wbF+58n+hQoFjqClN7WeZwGLh0XJUWyJJ9Ee+Ep+Ql/J9fRsTVaeThp8MhiCCrY0Jg==
+
 bluebird@^3.5.0, bluebird@^3.5.3:
   version "3.5.4"
   resolved "https://registry.yarnpkg.com/bluebird/-/bluebird-3.5.4.tgz#d6cc661595de30d5b3af5fcedd3c0b3ef6ec5714"
@@ -1916,6 +1921,11 @@ generate-function@^2.3.1:
   integrity sha512-eeB5GfMNeevm/GRYq20ShmsaGcmI81kIX2K9XQx5miC8KdHaC6Jm0qQ8ZNeGOi7wYB8OsdxKs+Y2oVuTFuVwKQ==
   dependencies:
     is-property "^1.0.2"
+
+geolite2@^1.2.1:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/geolite2/-/geolite2-1.2.1.tgz#b7c62d182021d398f7fc3c9d09a01c067b36cb36"
+  integrity sha512-4NqR+Wr4/KMSDrTq+0jnxL+xiMBiUXFiLBuMCs5gChLhZD6uvWICQxQV3MNpRH3FPGnB4gKHs3gGaYd+6X4sGQ==
 
 get-caller-file@^1.0.1:
   version "1.0.3"
@@ -3159,6 +3169,14 @@ math-interval-parser@^1.1.0:
   integrity sha1-2+2lsGsySZc8bfYXD94jhvCv2JM=
   dependencies:
     xregexp "^2.0.0"
+
+maxmind@^2.12.0:
+  version "2.12.0"
+  resolved "https://registry.yarnpkg.com/maxmind/-/maxmind-2.12.0.tgz#b7d16b0ee2fff50061ead36b258577cb7d85fec5"
+  integrity sha512-gnLdeLg0GFYlrtPt2122RYrRUy8OWxrhYEDCORaUkr6AvKXnLfnNpsFmWUOBYkvZK17XX4NeuMwnjIQM9EcxTw==
+  dependencies:
+    big-integer "^1.6.31"
+    tiny-lru "^6.0.0"
 
 mem@^4.0.0:
   version "4.3.0"
@@ -4733,6 +4751,11 @@ through@^2.3.6:
   version "2.3.8"
   resolved "https://registry.yarnpkg.com/through/-/through-2.3.8.tgz#0dd4c9ffaabc357960b1b724115d7e0e86a2e1f5"
   integrity sha1-DdTJ/6q8NXlgsbckEV1+Doai4fU=
+
+tiny-lru@^6.0.0:
+  version "6.0.1"
+  resolved "https://registry.yarnpkg.com/tiny-lru/-/tiny-lru-6.0.1.tgz#558bd6b7232b8b9dfa482147539676fdd75a3a07"
+  integrity sha512-k/vdHz+bFALjmik0URLWBYNuO0hCABTL5dullbZBXvFDdlL8RrKaeLR6YuHfX+6ZXOLkHw+HpNLCUA7DtLMQmg==
 
 tmp@^0.0.33:
   version "0.0.33"
