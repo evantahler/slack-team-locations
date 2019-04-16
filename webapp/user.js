@@ -3,11 +3,13 @@ import Styles from './styles.js'
 
 class User extends Component {
   render () {
-    const { user } = this.props
+    const { user, offsetImage } = this.props
+    let style = Styles.userImage
+    if (offsetImage) { style = Object.assign({}, style, Styles.userImageCentering) }
 
     return (
       <div style={Styles.user}>
-        <img src={user.image} style={Styles.userImage} title={`@${user.name}`} />
+        <img src={user.image} style={style} title={`@${user.name}`} />
       </div>
     )
   }

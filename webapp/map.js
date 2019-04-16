@@ -50,6 +50,7 @@ class Map extends Component {
                   user={user}
                   lat={user.lat}
                   lng={user.lng}
+                  offsetImage
                 />
                 : null
             })
